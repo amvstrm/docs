@@ -1,0 +1,49 @@
+# Get Started
+
+## Deploy to vercel
+
+You can start by cloning our project and deploying to Vercel by clicking the link:
+
+[![](https://vercel.com/button)](https://vercel.com/new/clone?project-name=amvstrm&repository-name=amvstrm&s=https://github.com/amvstrm/amvstrm&env=API_URL&envDescription=Do%20not%20put%20any%20other%20api%20url%20only%20https://api.amvstr.ml)
+
+*It is important to note that the API URL is the only one that is required or else you will get a 404 error or Data Not Available.*
+
+Vercel will create the amvstrm repository when you create the project and Deploy it automatically when you click the button.
+
+## Deploy Manually
+
+To Deploy manually :
+
+1. Clone the project
+````amv
+git clone https://github.com/amvstrm/amvstrm.git
+````
+2. Rename .env.example to .env
+````amv
+mv .env.example .env
+````
+3. Use the following command to deploy the project
+
+**Vercel**
+
+````amv
+vercel or vercel --prod
+````
+
+**Netlify**
+
+````amv
+netlify deploy
+````
+
+**Railway**
+
+````amv
+railway up
+````
+
+After that you are good to go!
+
+## Docker
+
+Docker is not available right now...

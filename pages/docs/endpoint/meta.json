@@ -1,0 +1,6 @@
+{
+  "anime": "/anime Endpoint",
+  "front_page": "Front Page Endpoint",
+  "search": "Search Endpoint",
+  "stream": "Stream Endpoint" 
+}

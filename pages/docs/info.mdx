@@ -1,0 +1,60 @@
+# amvstrm Documentation
+
+Welcome to our documentation for api and information about our website.
+
+## API Information
+
+Go to our endpoint documentation to see all the endpoints and information about it.
+*Our API is not open source right now. It is still in development*
+
+**Rate limit**
+
+All Endpoints are limited to 100 requests per minute.
+
+**Cache**
+
+Caching API is important for performance. Scraping website takes at least 1-10 seconds. Caching is a way to speed up the scraping process.
+
+List of endpoints that are cached :
+
+| **Endpoint** | **Cache Stored** |  
+|------------------------|------------------|
+| /anime/info | 7 days |  
+| /anime/episodelist | 30 minutes |  
+| /stream/play | 1 hour |  
+| /stream/iframe | 24 hours |  
+| /recentrelease/_:type_ | 10 minutes |  
+| /popular | 7 day |  
+| /movies | 4 days |  
+| /newseasons | 1 hour |  
+| /genre/_:genre_ | 4 hours |  
+| /topairing | 2 hours |
+| /search | 5 minutes |
+
+
+## How we run our website
+
+This is how we deploy and run amvstrm and api.
+
+![](../../public/infras.png)
+
+**Frontend**
+
+    * [amvstrm](https://amvstr.ml)
+
+**Backend**
+
+    * [amvstrm-api-server-1](https://api.amvstr.ml/) Memory Cache
+    * [amvstrm-api-server-2](https://api-server-2.amvstr.ml/) Redis Cache
+
+**Analytics/Monitoring**
+
+    * Ackee Analytics (Simple Data)
+    * Google Analytics (Advanced Data)
+    * Cloudflare Analytics (Simple Data + Performance Check)
+    * [ChecklyHQ](https://checklyhq.com)
+
+_We did not spend any money on these services, except railway..._
+_Since the railway new free trial policy has been implemented,
+they have limited runtime to 500hr/months. We decided to spend 5\$ to keep our services running_
+[Support Us](/donation)
