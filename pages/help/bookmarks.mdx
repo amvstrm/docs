@@ -1,0 +1,68 @@
+# Bookmark
+
+![](../../public/bksample.png)
+
+Bookmarking is a great way to save your favorite anime and
+our website have its own bookmarking tool to bookmarked your anime locally.
+
+You can manage the bookmarking data from amvstr.ml/bookmarks and start using it.
+
+## How to use bookmark
+
+1. Go to any anime pages
+2. Click bookmark button
+3. Go to Bookmark page from the sidebar
+4. Done
+
+If you want to remove one anime from your bookmarks,
+you can do it from the bookmark page or on anime page by clicking on the unbookmark button.
+
+## Limitation
+
+- Bookmarking data is stored in your browser. Once you clear the browser data, you will lose your bookmarking data.
+  We recommend you try to export your bookmarking data before clearing the browser data.
+
+- Store only 100 bookmarks. If your browser have some issue with storing data, it will be possibly deleted by the browser itself.
+
+- If your bookmarking data is corrupted or modified, you will not be able to access your bookmarking data.
+
+## Why not use cloud way?
+
+Cloud storage is a great way to store your data but
+it required us to spend a lot of money to set up (authentication service, storage, etc).
+
+We are planing to use cloud storage in the future but we are not sure yet.
+
+## Modifying your bookmarking data and Understanding each data
+
+```code
+{
+  "amv_val_str":"AMVSTRM_BOOKMARK_DATA_DO_NOT_TOUCH",
+  "info":"WARNING MESSAGE",
+  "time": UNIX TIME,
+  "bookmarks":[
+    {
+      "id":"string",
+      "title: "string",
+      "img: "string"
+    },
+    ...
+  ]
+}
+```
+
+Each export bookmarks data will be in json format. 
+You will be see those data once you export.  
+
+- Common string data : 
+  - amv_val_str is the most important string that will check if your data does contain amvstrm bookmark data.
+    if the string didnt present in your data, it will be considered as corrupted data.
+  - info is a warning message that will be displayed to you warning not to modify your data.
+  - time is the time when you export your data.
+  - bookmarks is the data that you save in your browser.
+  - Bookmark item :
+    - id is the id of the bookmark that is also used to fetch data with the id.
+    - title is the title of the bookmark
+    - img is the image of the bookmark
+
+If your modified bookmark file have the duplicate data, it will append to the existing data.
