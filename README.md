@@ -1,3 +1,7 @@
-# amvstrm Docs
+# amvstrm's Docs
 
-Change to docus nuxt 3 docs
+amvstrm's Official documentation for API, Info, and More...
+
+## Contribution
+
+If you think or found any error in the docs, Please help us rewrite or fix those issues and we would be appreciated it.
