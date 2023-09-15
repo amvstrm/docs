@@ -1,27 +1,34 @@
 export default defineAppConfig({
   docus: {
     title: "amvstrm",
+
     description:
       "amvstrm is an open source anime streaming platform that offer free anime with no ADs.",
+
     image:
-      "https://raw.githubusercontent.com/amvstrm/amvstrm/v2/public/amv_wh.png",
+      "/banner.png",
+
     socials: {
       github: "amvstrm/docs",
     },
+
     aside: {
       level: 0,
       exclude: [],
     },
+
     header: {
-      title: "Logo",
-      logo: true,
+      title: "amvstrm's Docs",
+      logo: false,
     },
+
     github: {
       owner: "amvstrm",
       repo: "docs",
       branch: "master",
       edit: true
     },
+
     footer: {
       iconLinks: [
         {
@@ -35,6 +42,14 @@ export default defineAppConfig({
           label: "Status",
         },
       ],
+
+      fluid: true,
     },
+
+    main: {
+      fluid: false,
+    },
+
+    titleTemplate: "%s · amvstrm",
   },
 });
