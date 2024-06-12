@@ -30,18 +30,15 @@ export default defineAppConfig({
     },
 
     footer: {
-      iconLinks: [
-        {
-          href: "https://amvstr.ml",
-          icon: "mdi-play-outline",
-          label: "amvstr.ml",
-        },
-        {
-          href: "https://amvstrm.checkly-dashboards.com",
-          icon: "mdi-monitor",
-          label: "Status",
-        },
-      ],
+      iconLinks: [{
+        href: "https://amvstr.me",
+        icon: "mdi-play-outline",
+        label: "amvstr.me",
+      }, {
+        href: "https://amvstrm.checkly-dashboards.com",
+        icon: "mdi-monitor",
+        label: "Status",
+      }],
 
       fluid: true,
     },
