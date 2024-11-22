@@ -5,7 +5,6 @@ amvstrm is powered by Nuxt 3 and amvstrm's API.
 ## Feature
 
 - Free, No ADs
-- Multi-Provider (SOON)
 - Fast and Easy to use
 - PWA support
 - Local Bookmarking

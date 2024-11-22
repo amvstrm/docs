@@ -9,6 +9,7 @@ API_URL=<your-api-url>
 VERSION=<your-version / v2 is the default>
 
 DISCUS_ID=<your-discus-id>
+USE_ANALYTICS=true
 POSTHOG_PK=<your-posthog-public-key>
 POSTHOG_HOST=<your-posthog-host>
 ```
@@ -29,11 +30,17 @@ Try [Posthog now](https://posthog.com) :
 It is optional but you can configure it to bypass rate limiting or allow cors to your website domain. This is helpful if you want to save your server resource and protecting other people from using the API.
 
 ```txt
-RATE_LIMIT=300
+NODE_ENV=development
+PORT=8000
+RATE_LIMIT=80
+RATE_LIMIT_DURATION=60000
+ALLOWED_HOSTS=
 BLOCK_WITH_CORS=false
-ALLOWLIST=<your-allowed-domains / you can add multiple domains with comma>
-PORT=8080
-SENTRY_DSN_URL=<your-sentry-dsn-url / optional>
+HASH_IP=false
+
+GOGOANIME_PROXY=https://anitaku.pe
+ANILIST_PROXY=https://graphql.anilist.co
+PROXY_URL=""
 ```
 
 ## Assets

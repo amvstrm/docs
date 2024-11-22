@@ -15,7 +15,7 @@ hero:
       link: /docs
     - theme: alt
       text: API Docs
-      link: /
+      link: https://api.amvstr.me/swagger
     - theme: alt
       text: GitHub
       link: https://github.com/amvstrm/amvstrm

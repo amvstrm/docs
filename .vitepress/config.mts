@@ -67,6 +67,10 @@ export default defineConfig({
         link: "/license",
       },
       {
+        text: "Legality",
+        link: "/legality",
+      },
+      {
         text: "Credits",
         link: "/credit",
       },

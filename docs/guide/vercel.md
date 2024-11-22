@@ -4,7 +4,7 @@
 
 Quickly deploy it to vercel to your own account with no configuration.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Famvstrm%2Famvstrm%2Ftree%2Fv2&env=API_URL,VERSION&envDescription=API_URL%20and%20Version%20are%20required...&envLink=https%3A%2F%2Fdocs.amvstr.ml%2Fguide%2Fconfiguration%23frontend)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Famvstrm%2Famvstrm%2Ftree%2Fv2&env=API_URL,VERSION,USE_ANALYTICS,POSTHOG_PK,POSTHOG_HOST&envDescription=API_URL%20and%20Version%20are%20required...&envLink=https%3A%2F%2Fdocs.amvstr.ml%2Fguide%2Fconfiguration%23frontend)
 
 ## Manual deploy
 
@@ -41,7 +41,9 @@ Rename the .env.example to .env and then configure any thing for your liking.
 API_URL= <Your API URL or Our default API URL>
 VERSION=v2 <Default version>
 
-# OPTIONAL (For tracking)
+# OPTIONAL (For tracking & Commenting system)
+DISQUS_ID=
+USE_ANALYTICS=true
 POSTHOG_PK=
 POSTHOG_HOST=
 ```

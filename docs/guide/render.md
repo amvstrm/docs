@@ -33,7 +33,6 @@ Quickly deploy it to render to your own account with no configuration.
 
   ![rnder-cfg-deploy.png](/docs_assets/rnder-cfg-deploy.png)
 
-
 ### Step 2: Install Dependencies (Optional)
 
 1. Navigate to the cloned repository directory using the terminal.
@@ -55,6 +54,7 @@ VERSION=v2 <Default version>
 
 # OPTIONAL (For tracking & Commenting system)
 DISQUS_ID=
+USE_ANALYTICS=true
 POSTHOG_PK=
 POSTHOG_HOST=
 ```
@@ -73,6 +73,7 @@ VERSION=v2 <Default version>
 
 # OPTIONAL (For tracking & Commenting system)
 DISQUS_ID=
+USE_ANALYTICS=true
 POSTHOG_PK=
 POSTHOG_HOST=
 ```

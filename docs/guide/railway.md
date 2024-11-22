@@ -39,7 +39,9 @@ Rename the .env.example to .env and then configure any thing for your liking.
 API_URL= <Your API URL or Our default API URL>
 VERSION=v2 <Default version>
 
-# OPTIONAL (For tracking)
+# OPTIONAL (For tracking & Commenting system)
+DISQUS_ID=
+USE_ANALYTICS=true
 POSTHOG_PK=
 POSTHOG_HOST=
 ```

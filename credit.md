@@ -16,7 +16,6 @@ amvstrm relies on many packages and data sources to work.
 - [riimuru/gogoanime-api](https://github.com/riimuru/gogoanime-api)
 - [ChrisMichaelPerezSantiago/gogoanime](https://github.com/ChrisMichaelPerezSantiago/gogoanime)
 - [Eltik/Anify (RIP)](https://docs.anify.tv/)
-- [Ani-skip](http://api.aniskip.com/)
 
 ## Data source
 
