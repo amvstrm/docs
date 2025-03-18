@@ -1,5 +1,8 @@
 # Railway
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 ## Deploy button
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/qTzr6q?referralCode=SpsRaMStrmAffl)

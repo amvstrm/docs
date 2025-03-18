@@ -1,5 +1,8 @@
 # Bookmark
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 amvstrm's Bookmarker is used to bookmarked anime and it is entirely local and you can export it and import it to already available self-hosted amvstrm site.
 
 ![undefined](/docs_assets/ani_pg_bk.png){width="600"}

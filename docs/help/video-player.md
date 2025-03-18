@@ -1,5 +1,8 @@
 # Video player
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 amvstrm provided a lot of different players + embeds in case one of them is not working.
 
 ![swplyr](/docs_assets/firefox_AZi3Kg5pQ3.png)

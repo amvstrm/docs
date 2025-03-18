@@ -1,5 +1,8 @@
 # Render
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 > [!INFO]
 > Not familiar with render stuff... Feel free to correct us
 

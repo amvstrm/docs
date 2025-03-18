@@ -1,5 +1,8 @@
 # Configuration
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 ## Frontend
 
 amvstrm required API_URL and VERSION in order to work. If you plan to deploy your own one, you can use our amvstrm's API or deploy your own backend and use it.

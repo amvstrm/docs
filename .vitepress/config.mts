@@ -20,6 +20,7 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
+      { text: "The future", link: "/the-future" },
       { text: "Documentations", link: "/docs" },
     ],
 

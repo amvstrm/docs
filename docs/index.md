@@ -1,5 +1,8 @@
 # Getting Started
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 amvstrm is powered by Nuxt 3 and amvstrm's API.
 
 ## Feature

@@ -1,5 +1,8 @@
 # Docker
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 > [!NOTE]
 > I have no knowledge about docker, If there is anything that is incorrect, please help us rewrite the docs.
 

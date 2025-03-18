@@ -1,5 +1,8 @@
 # Vercel
 
+> [!WARNING]
+> amvstrm's Website will be shutting down. Read more about the future of amvstrm [here](/the-future).
+
 ## Deploy button
 
 Quickly deploy it to vercel to your own account with no configuration.
