@@ -18,7 +18,6 @@ amvstrm and amvstrm's API are distributed under the terms of the GPL v3.0 licens
 
 ## Name and Logo
 
-amvstrm is a free and open-source software but our logo is not. If you plan to deploy your own for commercial and noncommercial reasons, please change our logo, SEO metadata, and name. We are not so strict about it but you must change it.
+amvstrm is a free and open-source software, but our name & logo are not free to use since amvstrm is part of NYT92org. 
 
-> [!INFO]
-> **However, using it in your blog, video, and image is allowed.**
+If you plan to deploy your own for commercial and noncommercial reasons, please change our logo, SEO metadata, and name. We are not so strict about it, but you must change it.
